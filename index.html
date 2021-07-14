@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+          margin: 0;
+          background: rgb(255, 255, 255);
+        }
+        header{
+            width: 100%;
+            background: rgb(141, 199, 233);
+        }
+        h3{
+            width: 190px;
+            margin: auto;
+            color: rgb(255, 255, 255);
+        }
+        main{
+            width: ;
+        }
+        #submit1{
+            width: 80%;
+            position: relative;
+            left: 10%;
+        }
+        .clear::after{
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+        .clear{
+            zoom: 1;
+        }
+        .lab{
+            width: 100%;
+            height: 60px;
+        }
+        .lab span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="index">
+        <header>
+            <h3>杭州方大丝绸有限公司应聘登记表</h3>
+        </header>
+
+        <main>
+            <form>
+                <div class="lab"><span>*</span><label>应聘岗位</label>
+                   <div class="clear"></div>
+                   <input type="text" class="text1">
+                    <select name="性别">
+                        <option value="男">男</option>
+                        <option value="女">女</option>
+                    </select>
+                </div>
+                <div class="clear"></div>
+           <input id="submit1" type="submit" value="提交" >
+            </form>
+
+        </main>
+        
+    </div>
+</body>
+</html>
